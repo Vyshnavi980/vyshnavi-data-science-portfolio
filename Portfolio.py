@@ -15,7 +15,6 @@ selected_section = st.sidebar.radio("Go to", [
     "✍️ Writing",
     "📬 Contact"
 ])
-
 # --- Home ---
 if selected_section == "👋 Home":
     st.markdown("### 👋 Hi, I'm Vyshnavi MR")
@@ -23,23 +22,29 @@ if selected_section == "👋 Home":
 
     # --- Profile Summary ---
     with st.container():
-        col1, col2 = st.columns([1, 4])
-            st.image("https://imgur.com/a/VpUoq47", caption="Vyshnavi MR")
-  # Replace with your photo URL
-        with col2:
+
+        # Add image to col1
+        # with col1:
+        #     st.image("https://imgur.com/a/VpUoq47", caption="Vyshnavi MR", use_container_width=True)  # Use the new parameter
+
+        # Add text to col2
+         with st.container():
             st.markdown("""
 🎯 I’m a data scientist with **1.8 years of industry experience** in building scalable ML systems, enhancing forecasting accuracy, and exploring the frontiers of **Generative AI**.  
 I’ve contributed to **supply chain optimization**, **video analytics** * projects at **Lululemon**, with a proven track record of boosting model reliability and performance.  
 Passionate about translating data into impact, I thrive on solving business problems through innovation and thoughtful storytelling.
 """)
             st.markdown("""
-Welcome to my interactive resume built with Streamlit!  
+Welcome to my interactive resume!  
 Use the **sidebar on the left** to explore my skills, projects, and accomplishments.
 """)
             st.success("⬅️ Click on a section in the sidebar to get started!")
+
     st.markdown("---")
 
-# --- Skills ---
+
+
+
 # --- Skills ---
 elif selected_section == "⚙️ Skills":
     st.markdown("### ⚙️ Skills")
