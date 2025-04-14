@@ -25,7 +25,8 @@ if selected_section == "👋 Home":
     with st.container():
         col1, col2 = st.columns([1, 4])
         with col1:
-            st.image("/Users/vmr/Downloads/Vyshnavi.jpeg", caption="Vyshnavi MR")  # Replace with your photo URL
+            st.image("images/Vyshnavi.jpeg", caption="Vyshnavi MR")
+  # Replace with your photo URL
         with col2:
             st.markdown("""
 🎯 I’m a data scientist with **1.8 years of industry experience** in building scalable ML systems, enhancing forecasting accuracy, and exploring the frontiers of **Generative AI**.  
