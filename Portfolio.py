@@ -155,7 +155,7 @@ elif selected_section == "📂 Projects":
     with st.container():
         col1, col2 = st.columns([1, 2])
         with col1:
-            st.image("/Users/vmr/Downloads/TimeSeries.png.webp", width=100)
+            st.image("https://media.licdn.com/dms/image/v2/C5612AQGcjk6BelHZ2w/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1613318203099?e=2147483647&v=beta&t=BKxkdNw0kUNB93x_ZXRrGY5JVAvjknMctTo6WG25-Ps", width=100)
         with col2:
             st.markdown("#### 📦 Forecasting Optimization for Supply Chain")
             st.markdown("""
@@ -168,7 +168,7 @@ elif selected_section == "📂 Projects":
 # --- Accomplishments ---
 elif selected_section == "🎯 Accomplishments":
     st.markdown("### 🎯 Accomplishments")
-    st.image("/Users/vmr/Downloads/hackathon.png", width=200)
+    st.image("https://media.licdn.com/dms/image/v2/C5612AQGcjk6BelHZ2w/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1613318203099?e=2147483647&v=beta&t=BKxkdNw0kUNB93x_ZXRrGY5JVAvjknMctTo6WG25-Ps", width=200)
     st.markdown("""
 **Hackathon Highlight**  
 - Led and presented a **GenAI-based POC** at the **Lululemon Global Hackathon 2024**  
