@@ -30,8 +30,8 @@ if selected_section == "👋 Home":
         # Add text to col2
          with st.container():
             st.markdown("""
-🎯 I’m a data scientist with **1.8 years of industry experience** in building scalable ML systems, enhancing forecasting accuracy, and exploring the frontiers of **Generative AI**.  
-I’ve contributed to **supply chain optimization**, **video analytics** * projects at **Lululemon**, with a proven track record of boosting model reliability and performance.  
+🎯 I’m a data scientist with experience in building scalable ML systems, enhancing forecasting accuracy, and exploring the frontiers of **Generative AI**.  
+I’ve contributed to **supply chain optimization**, **video analytics**, **GenAI** projects at **Lululemon**, with a proven track record of boosting model reliability and performance.  
 Passionate about translating data into impact, I thrive on solving business problems through innovation and thoughtful storytelling.
 """)
             st.markdown("""
@@ -155,7 +155,7 @@ elif selected_section == "📂 Projects":
     with st.container():
         col1, col2 = st.columns([1, 2])
         with col1:
-            st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Time_Series_Analysis.png/800px-Time_Series_Analysis.png", width=100)
+            st.image("https://miro.medium.com/v2/resize:fit:1400/format:webp/1*LKU0LxX-FyFWrmipNTE1-w.jpeg", width=100)
         with col2:
             st.markdown("#### 📦 Forecasting Optimization for Supply Chain")
             st.markdown("""
