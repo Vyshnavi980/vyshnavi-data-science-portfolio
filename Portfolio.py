@@ -24,8 +24,7 @@ if selected_section == "👋 Home":
     # --- Profile Summary ---
     with st.container():
         col1, col2 = st.columns([1, 4])
-        with col1:
-            # st.image("images/Vyshnavi.jpeg", caption="Vyshnavi MR")
+            st.image("https://imgur.com/a/VpUoq47", caption="Vyshnavi MR")
   # Replace with your photo URL
         with col2:
             st.markdown("""
